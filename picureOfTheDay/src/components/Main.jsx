@@ -1,7 +1,8 @@
 export default function Main() {
   return (
-    <div>
-        <img src="photo_2025-09-11_17-08-23 (5).jpg" alt="EMO" />
+    <div className="imgContainer">
+        <img src="photo_2025-09-11_17-08-23 (5).jpg" alt="EMO"
+        className="bgImage" />
     </div>
   );
 }
