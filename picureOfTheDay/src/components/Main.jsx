@@ -1,7 +1,7 @@
 export default function Main() {
   return (
     <div>
-        Main
+        <img src="photo_2025-09-11_17-08-23 (5).jpg" alt="EMO" />
     </div>
   );
 }
