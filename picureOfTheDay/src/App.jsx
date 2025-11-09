@@ -7,13 +7,17 @@ function App() {
 
   const [showModal, setShowModal] = useState(false);
 
+  function handleToggleModal() {
+    setShowModal(!showModal);
+  }
 
   return (
     <> 
       <Main/>
-      {showModal && <SideBar> EMO </SideBar>}
+      {showModal && (<SideBar handleToggleModal={handleToggleModal}/>
+    )}
     
-      <Footer/>
+      <Footer handleToggleModal={handleToggleModal}/>
     </>
   )
 }
